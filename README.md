@@ -22,73 +22,73 @@
 
 
 ```
-├─paascloud-master----------------------------父项目，公共依赖
+├─xinyuan-master----------------------------父项目，公共依赖
 │  │
-│  ├─paascloud-eureka--------------------------微服务注册中心
+│  ├─xinyuan-eureka--------------------------微服务注册中心
 │  │
-│  ├─paascloud-discovery-----------------------微服务配置中心
+│  ├─xinyuan-discovery-----------------------微服务配置中心
 │  │
-│  ├─paascloud-monitor-------------------------微服务监控中心
+│  ├─xinyuan-monitor-------------------------微服务监控中心
 │  │
-│  ├─paascloud-zipkin--------------------------微服务日志采集中心
+│  ├─xinyuan-zipkin--------------------------微服务日志采集中心
 │  │
-│  ├─paascloud-gateway--------------------------微服务网关中心
+│  ├─xinyuan-gateway--------------------------微服务网关中心
 │  │
-│  ├─paascloud-provider
+│  ├─xinyuan-provider
 │  │  │
-│  │  ├─paascloud-provider-mdc------------------数据服务中心
+│  │  ├─xinyuan-provider-mdc------------------数据服务中心
 │  │  │
-│  │  ├─paascloud-provider-omc------------------订单服务中心
+│  │  ├─xinyuan-provider-omc------------------订单服务中心
 │  │  │
-│  │  ├─paascloud-provider-opc------------------对接服务中心
+│  │  ├─xinyuan-provider-opc------------------对接服务中心
 │  │  │
-│  │  ├─paascloud-provider-tpc------------------任务服务中心
+│  │  ├─xinyuan-provider-tpc------------------任务服务中心
 │  │  │
-│  │  └─paascloud-provider-uac------------------用户服务中心
+│  │  └─xinyuan-provider-uac------------------用户服务中心
 │  │
-│  ├─paascloud-provider-api
+│  ├─xinyuan-provider-api
 │  │  │
-│  │  ├─paascloud-provider-mdc-api------------------数据服务中心API
+│  │  ├─xinyuan-provider-mdc-api------------------数据服务中心API
 │  │  │
-│  │  ├─paascloud-provider-omc-api------------------订单服务中心API
+│  │  ├─xinyuan-provider-omc-api------------------订单服务中心API
 │  │  │
-│  │  ├─paascloud-provider-opc-api------------------对接服务中心API
+│  │  ├─xinyuan-provider-opc-api------------------对接服务中心API
 │  │  │
-│  │  ├─paascloud-provider-tpc-api------------------任务服务中心API
+│  │  ├─xinyuan-provider-tpc-api------------------任务服务中心API
 │  │  │
-│  │  ├─paascloud-provider-sdk-api------------------可靠消息服务API
+│  │  ├─xinyuan-provider-sdk-api------------------可靠消息服务API
 │  │  │
-│  │  └─paascloud-provider-uac-api------------------用户服务中心API
+│  │  └─xinyuan-provider-uac-api------------------用户服务中心API
 │  │
-│  ├─paascloud-common
+│  ├─xinyuan-common
 │  │  │
-│  │  ├─paascloud-common-base------------------公共POJO基础包
+│  │  ├─xinyuan-common-base------------------公共POJO基础包
 │  │  │
-│  │  ├─paascloud-common-config------------------公共配置包
+│  │  ├─xinyuan-common-config------------------公共配置包
 │  │  │
-│  │  ├─paascloud-common-core------------------微服务核心依赖包
+│  │  ├─xinyuan-common-core------------------微服务核心依赖包
 │  │  │
-│  │  ├─paascloud-common-util------------------公共工具包
+│  │  ├─xinyuan-common-util------------------公共工具包
 │  │  │
-│  │  ├─paascloud-common-zk------------------zookeeper配置
+│  │  ├─xinyuan-common-zk------------------zookeeper配置
 │  │  │
-│  │  ├─paascloud-security-app------------------公共无状态安全认证
+│  │  ├─xinyuan-security-app------------------公共无状态安全认证
 │  │  │
-│  │  ├─paascloud-security-core------------------安全服务核心包
+│  │  ├─xinyuan-security-core------------------安全服务核心包
 │  │  │
-│  │  └─paascloud-security-feign------------------基于auth2的feign配置
+│  │  └─xinyuan-security-feign------------------基于auth2的feign配置
 │  │
-│  ├─paascloud-generator
+│  ├─xinyuan-generator
 │  │  │
-│  │  ├─paascloud-generator-mdc------------------数据服务中心Mybatis Generator
+│  │  ├─xinyuan-generator-mdc------------------数据服务中心Mybatis Generator
 │  │  │
-│  │  ├─paascloud-generator-omc------------------数据服务中心Mybatis Generator
+│  │  ├─xinyuan-generator-omc------------------数据服务中心Mybatis Generator
 │  │  │
-│  │  ├─paascloud-generator-opc------------------数据服务中心Mybatis Generator
+│  │  ├─xinyuan-generator-opc------------------数据服务中心Mybatis Generator
 │  │  │
-│  │  ├─paascloud-generator-tpc------------------数据服务中心Mybatis Generator
+│  │  ├─xinyuan-generator-tpc------------------数据服务中心Mybatis Generator
 │  │  │
-│  │  └─paascloud-generator-uac------------------数据服务中心Mybatis Generator
+│  │  └─xinyuan-generator-uac------------------数据服务中心Mybatis Generator
 
 
 
@@ -126,27 +126,27 @@ Spring Cloud 爱好者,现就任于鲜易供应链平台研发部.
 ## 配套项目
 
 ```
-后端项目：https://github.com/paascloud/paascloud-master 
-         https://gitee.com/paascloud/paascloud-master
-登录入口：https://github.com/paascloud/paascloud-login-web
-         https://gitee.com/paascloud/paascloud-login-web
-后端入口：https://github.com/paascloud/paascloud-admin-web
-         https://gitee.com/paascloud/paascloud-admin-web
-前端入口：https://github.com/paascloud/paascloud-mall-web
-         https://gitee.com/paascloud/paascloud-mall-web
+后端项目：https://github.com/xinyuan/xinyuan-master 
+         https://gitee.com/xinyuan/xinyuan-master
+登录入口：https://github.com/xinyuan/xinyuan-login-web
+         https://gitee.com/xinyuan/xinyuan-login-web
+后端入口：https://github.com/xinyuan/xinyuan-admin-web
+         https://gitee.com/xinyuan/xinyuan-admin-web
+前端入口：https://github.com/xinyuan/xinyuan-mall-web
+         https://gitee.com/xinyuan/xinyuan-mall-web
 ```
 
 ### 传送门
-- 博客入口： http://blog.paascloud.net
-- 后端入口： http://admin.paascloud.net (支持微信登录体验)
-- 模拟商城: http://mall.paascloud.net (支持微信登录体验)
-- 文档手册: http://document.paascloud.net
-- github: https://github.com/paascloud
-- 操作手册: http://blog.paascloud.net/2018/06/10/paascloud/doc/
+- 博客入口： http://blog.xinyuan.net
+- 后端入口： http://admin.xinyuan.net (支持微信登录体验)
+- 模拟商城: http://mall.xinyuan.net (支持微信登录体验)
+- 文档手册: http://document.xinyuan.net
+- github: https://github.com/xinyuan
+- 操作手册: http://blog.xinyuan.net/2018/06/10/xinyuan/doc/
 
 ### 架构图
 
-![项目架构图](http://img.paascloud.net/paascloud/doc/paascloud-project.png)
+![项目架构图](http://img.xinyuan.net/xinyuan/doc/xinyuan-project.png)
 
 
 
